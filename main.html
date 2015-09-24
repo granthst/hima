@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>H.I.M.A</title>
+<style type="text/css">
+body {
+  width: 1440px;
+  margin: 0 auto;}
+
+.site-topbar{
+	position:relative;
+	z-index:30;
+	height:40px;
+	width: 100%;
+	font-size:12px;
+	color:white;
+	background:#333;
+}
+.site-topbar .container{
+	width:90%;
+	height: 40px;
+	margin-right:auto;
+	margin-left:auto
+}
+.topbar-nav{
+	float:right;
+	position: relative;
+	right: 20%;
+	height:40px;
+	line-height:40px;
+	overflow:hidden;
+	
+}
+.topbar-nav a{
+	text-decoration: none;
+	position: relative;
+	color: white;
+	margin-left: 10px;
+}
+.topbar-nav a:hover{
+	color: red;
+}
+.site-header{
+	position:relative;
+	z-index:20;
+	width: 100%;
+	height:100px
+}
+.site-header .container{
+	width:90%;
+	height: 70px;
+	*zoom:1;
+	margin-right:auto;
+	margin-left:auto
+}
+
+.header-logo{
+	float:left;
+	width:70px;
+	margin-left: 20%;
+	margin-top:10px;
+
+}
+.site-header .logo{
+	position:relative; 
+	float:left;
+	width:90px;
+	height:90px;
+	overflow:hidden;
+	background:url("images/logo.png") 
+	no-repeat 50% 50%
+}
+
+.nav-list{
+	position: relative;
+	
+}
+.nav-item{
+	float:right;
+	position: relative;
+	right: 20%;
+	height:40px;
+	margin-top: 30px;
+	line-height:20px;
+	overflow:hidden;
+	
+}
+.nav-item a{
+	position: relative;
+	text-decoration: none;
+	margin-left:10px;
+	font-size: 80%;
+	color: gray;
+}
+
+.product-pictures{
+	width: 100%;
+}
+
+.product-pictures .container{
+	width:70%;
+	margin-right:auto;
+	margin-left:auto
+}
+
+#slides {
+  height: 300px;
+  margin-bottom: 1em;
+  background: #efefef url("images/slide1.gif");}
+
+.side{
+	height: 10em;
+	margin-bottom: 1em;
+  	background-color: #efefef;
+  	width: 32.3%;
+  	float: left;
+  	
+}
+  .p2, .p3 {
+  margin-left: 1.5%
+}
+
+li, figure {
+	float: left;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.nav-item ul {
+  visibility: hidden;
+  position: fixed;
+  float: left;
+  left:0%;
+  top:150px;
+  transition: 0.2s 0.2s;
+}
+
+.sub-nav-container {
+	position: fixed;
+	margin: 0;
+	background-color: #efefef;
+	width: 1200px;
+	/*z-index: 50%；*/
+}
+
+.nav-item:hover ul{
+	visibility: visible;
+	transition-delay: 0s;
+}
+
+.sub-nav-container li{
+	padding: 10px;
+}
+
+
+figcaption{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+</style>
+</head>
+
+<body>
+<div class="site-topbar">
+    <div class="container">
+        <div class="topbar-nav">
+        	<a href="" target="_blank">CART</a> | <a href="" >SIGN IN</a> | <a href="" >REGISTER</a>
+		
+	</div>
+	</div>
+</div>
+
+<div class="site-header">
+    <div class="container">
+        <div class="header-logo">
+            <a class="logo" href="layout_Example.html" title=""></a> 
+        </div>
+        <ul class="nav-list J_navMainList clearfix">
+        	<li class="nav-item">
+                    <a class="link" href="javascript:void(0);"><span class="text">MOUSE&K</span><span class="arrow"></span></a>
+                     <ul class = "sub-nav-container">
+				        <li><a href="#">
+				        	<figure>
+								<img src="images/smart_camera.gif" width="100" height="90">
+							  	<figcaption>smart camera</figcaption>
+							</figure>
+						</li>
+				        <li><a href="#">
+				        	<figure>
+								<img src="images/smart_camera.gif" width="100" height="90">
+							  	<figcaption>smart camera</figcaption>
+							</figure>
+						</li>
+      				</ul>
+            </li>
+
+            <li class="nav-item">
+                    <a class="link" href="javascript:void(0);"><span class="text">MOUSE&KEYBORAD2</span><span class="arrow"></span></a>
+                    <ul class = "sub-nav-container">
+				        <li><a href="#">
+				        	<figure>
+								<img src="images/smart_camera.gif" width="100" height="90">
+							  	<figcaption>smart camera</figcaption>
+							</figure>
+						</li>
+				        <li><a href="#">
+				        	<figure>
+								<img src="images/smart_camera.gif" width="100" height="90">
+							  	<figcaption>smart camera</figcaption>
+							</figure>
+						</li>
+      				</ul>
+            </li>
+
+            <li class="nav-item">
+                    <a class="link" href="javascript:void(0);"><span class="text">MOUSE&KEYBORAD3</span><span class="arrow"></span></a>
+                    <ul class = "sub-nav-container">
+				        <li><a href="#">One</a></li>
+				        <li><a href="#">Two</a></li>
+				        <li><a href="#">Three</a></li>
+      				</ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div class="product-pictures">
+	<div class="container">
+		<div id="slides"> 
+			
+		</div>
+	    <div class="side p1">
+				
+		</div>
+		<div class="side p2"> 
+				
+		</div>
+    	<div class="side p3">
+				 
+		</div>
+  	</div>
+</div>
+
+</body>
+</html>
