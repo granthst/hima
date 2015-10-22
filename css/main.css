@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+/* 公用 */
+.comWidth{width:1000px; margin-left:auto; margin-right:auto;}
+.leftArea{float:left}
+.rightArea{float:right}
+
+/* topbar */
+.topBar{height:31px; background-color:#F7F7F7; line-height:31px;}
+.collection{background:url(../images/icon/cookie.gif) left center no-repeat; padding-left:19px; font-weight:bold;}
+.topBar a:hover{color:red;}
+
+/*logoBar*/
+.logoBar{height:85px; background-color:#1D7AD9;}
+.logo{padding-left:41px;padding-top:13px;}
+/*search*/
+.search_box{width:430px;padding-top:23px;padding-left:185px;}
+.search_text{width:350px;height:35px; padding:0 5px; background-color:#fff; line-height:35px/9;}
+.search_btn{width:70px; height:35px;font-size:14px; font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;background-color:#FF8C00}
+
+/*shopcart*/
+
+.shopCart{width:145px; height:35px; background-color:#FF8C00; margin-top:23px; font-size:14px; color:#fff; line-height:35px;}
+.shopText{ width:87px; height:100%; border-right:#e27a00 solid 1px;background:url(../images/icon/shopcart.gif) 10px center no-repeat; text-indent:40px;}
+.shopNum{width:27px; height:35px; border-left:#ff9c01 solid 1px; background:url(../images/icon/cartDropDown.gif) 33px center no-repeat; text-align:right; padding-right:29px;}
+
+/*nav*/
+.navBox{height:35px; background-color:#1369c0; color:#fff;}
+.shopClass{width:190px; position:relative;}
+.shopClass h3{text-align:center;line-height:35px; }
+.shopClass i{width:11px;height:7px;overflow:hidden; display:inline-block;background:url(../images/icon/navDropDown.gif) left center no-repeat; margin-left:11px;}
+.nav{line-height:35px;}
+.nav li{float:left;}
+.nav a{height:35px;display:inline-block; padding:0 35px; color:#fff;}
+.nav .active{background-color:#4593fd;}
+.shopClass_show{background-color:#4593FD;position:absolute; left:0;top:35;width:100%;}
+.shopClass_item{padding:13px 10px; border-bottom:#3487f2 solid 1px; border-top:#5aa1fe solid 1px;line_height:16px;}
+.shopClass_item .b{font-size:14px; font-weight:bold;}
+.shopClass_item a{color:#fff;}
+.shopClass_item dt{height:25px; background:url(../images/icon/arrowRight.gif)right center no-repeat;overflow:hidden;}
+
+/*banner*/
+.banner{margin-bottom:15px;}
+.banner_bar{float:right;position:relative;overflow:hidden;}
+.imgBox{position:absolute; left:0;top:0;}
+.imgBox li{float:left;}
+.imgBox img{display:block;}
+.imgNum {position:absolute; left:0; bottom:15px; width:100%; text-align:center;}
+.imgNum a{width:20px; height:5px; overflow:hidden; background-color:#fff; display:inline-block; margin:0 3px;}
+.imgNum .active{background-color:#ff7700;}
+.banner_big .imgBox{width:1620px;height:326px;}
+.banner_big, .banner_big img{width:810px;height:326px;}
+
+.banner_small, .banner_small img{width:190px;height:400px;}
+.banner_small .img_box{width:380;height:400px;}
+/*shoptitle*/
+.shopTitle{height:44px; line-height:44px; margin-bottom:15px;}
+.shopTitle h3{font-size:24px; float:left; font-weight:normal; padding-left:15px;}
+.icon{width:44px;height:44px;background:url(../images/icon/title.gif) left top no-repeat;float:left;}
+.more{float:right;}
+.move:hover{text-decoration:underline;}
+
+/*products table*/
+.shoplist{margin-bottom:15px;}
+.shoplist .leftArea{width:190px;}
+.shoplist .rightArea{width:808px;border:#999 solid 1px; border-bottom:#ff7201 solid 3px; height:396px;overflow:hidden;}
+
+/*products table right*/
+.shoplist_top, .shoplist_bottom{margin-right:-4px;}
+.shop_item{width:202px; border-right:#999 solid 1px; border-bottom:#999 solid 1px; height:279px; text-align:center;float:left;}
+.shop_img{height:218px; text-align:center;}
+.shop_img img{width:100%; height:218px; display:block;}
+.shop_item h3{font-size:16px;}
+.shop_item p{font-size:14px;color:#ff7300;line-height:21px;}
+
+.shop_item_sm{width:202px; border-right:#999 solid 1px;height:110px;float:left;padding-top:6px;}
+.shop_sm_img{width:95px;height:95px;text-align:center;float:left;}
+.shop_sm_img img{width:95px;height:95px;}
+.shop_item_text{padding-top:28px;width:107px;float:left;}
+.shop_item_text p{color:#ff7300;}
+.shop_item_text h3{font-size:16px;font-weight:normal;line-height:30px;}
+
+/*footer*/
+.footer{text-align:center;background-color:#d4d4d4;line-height:24px;padding:50px 0;}
+.footer i{font-style:normal; margin:0 5px;}
+.footer a{color:#000;}
+.footer a:hover{color:#f60;}
+.web{padding-top:30px;}
+.web img{margin:0 12px;}
+.hr_25{height:25px;}
