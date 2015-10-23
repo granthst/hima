@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+/* 公用 */
+.comWidth{width:1204px; margin-left:auto; margin-right:auto;}
+.leftArea{float:left}
+.rightArea{float:right}
+
+/* topbar */
+.top-bar{height:56px; background-color:#213F49; line-height:56px; min-width:1204px;}
+.top-bar a{color:#fff;margin-left:23px; font-size:14px;font-family: Arial;}
+.top-bar a:hover{color:red;}
+.shopCart{background:url(../hima_images/icons/shoppingCart.gif) left center no-repeat;padding-left:10px;}
+.top-bar .rightArea{width:275px;}
+/*logoBar*/
+.logo-bar{height:100px; background-color:#fff; border-bottom:#cbcbcb solid 1px; min-width:1204px;}
+.logo{padding-left:40px;padding-top:23px;}
+
+/*topNav*/
+.top-nav {line-height:100px;padding-left:325px; text-align:center;}
+.top-nav li{float:left;}
+.top-nav li a{display:inline-block; margin-left:65px; font-size:18px; font-family:"Arial Unicode MS", Arial; font-weight:bold;}
+.top-nav li a:hover{color:red;}
+
+/*reg background*/
+.register-background{background-color:#f0f0f0;height:745px; min-width:1204px;}
+
+/*reg box*/
+.register-area{background-color:#fff;  height:740px; }
+.register-box{width:394px;   border:#CCC solid 2px;  position:relative; top:100px; left:393px; border-radius:15px; color:#464646;font-family:"Adobe 黑体 Std R";}
+.reg, .info{padding:15px 30px;}
+.reg{border-bottom:#CCC solid 1px; height:50px;}
+.reg_text{  font-size:22px; font-weight:bold;}
+.info{width:340px;margin-top:30px;}
+.login_input{border:#999 solid 1px; height:50px; line-height:50px\9; width:100%;margin-top:7px; margin-bottom:27px; text-indent:5px; border-radius:10px;}
+.accept{height:20px; line-height:20px;}
+
+#a1{position:relative;bottom:3px; margin-left:7px;}
+.reg_btn{width:118px; height:45px; background:#014165; color:#fff; margin-top:30px;}
+.login {margin-top:87px;}
+.login a{text-decoration:underline; color:#015b8b; }
+
+/*footer*/
+.footer{height:300px;background:#213F49;margin-top:0px; min-width:1204px;}
+.footer .leftArea{width:469px;height:300px;}
+.footer-logo{padding-top:50px;padding-left:109px;}
+.footer-signin-reg{padding-left:85px;margin-top:50px;}
+.footer-signin-reg img{margin-left:23px;}
+
+.footer .rightArea{width:735px;height:300px;}
+.footer-nav{padding-top:30px; padding-left:35px;}
+.footer-nav li{float:left;}
+.footer-nav a{font-size:18px;display:inline-block;  font-weight:bold; color:#bdc0c1;  font-family:Arial;}
+.footer-nav .second{margin-left:170px;}
+
+
+.navs a{font-size:16px; font-family:Arial; font-family:Arial;color:#d2d2d2;}
+.navs li{margin-bottom:17px;}
+
+
+.about-nav{padding-left:35px;margin-top:36px;}
+.QA-nav{position:relative;bottom:175px;left:300px;}
+.binaryCode{width:124px;height:125px; float:right; position:relative; bottom:350px; right:50px; }
+

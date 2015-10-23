@@ -55,8 +55,8 @@
 .more a:hover{color:red;}
 
 .item{width:224px;height:370px;  text-align:center; float:left;font-size:13px; font-family:"微软雅黑"; }
-.itemList .item{background:#fff; border:#fff solid 2px;}
-.itemList .item:hover{border:#213f49 solid 2px;}
+.itemList .item{background:#fff; }
+.itemList .item:hover{box-shadow:0 3px 4px rgba(0,0,0,0.18);}
 .second_item .item{margin-left:13px;}
 .item h3{margin-bottom:9px;}
 .item p{margin-bottom:18px;}
@@ -71,7 +71,10 @@
 .hot-sale-nav li{float:left;}
 .hot-sale-nav a{font-size:18px;display:inline-block; margin-left:40px; font-weight:bold;}
 
-.hot-sale-listTop{margin-top:40px;}
+
+.hot-sale .item{background:#fff;}
+.hot-sale .item:hover{box-shadow:0 3px 4px rgba(0,0,0,0.18);}
+.hot-sale-listTop{margin-top:20px;}
 .hot-sale-banner{width:469px;height:370px;}
 .hot-sale-listTop .item{margin-left:20px;}
 
@@ -79,22 +82,23 @@
 .hot-sale-listBottom .second_item .item{margin-left:21px;}
 
 /*other items*/
-.other-itemTitle{height:44px; line-height:44px; margin-bottom:15px;font-family:"微软雅黑";font-weight:bold; padding-top:40px;}
+.other-item{background-color:#F3F3F3;}
+.other-itemTitle{height:44px; line-height:44px; margin-bottom:15px;font-family:"微软雅黑";font-weight:bold; padding-top:20px;}
 .other-itemTitle h3{font-size:22px; float:left;  color:#213f49;  }
-
+.other-item .item{background:#fff;}
 .other-itemTitle .more{width:100px;height:44px; line-height:44px; font-size:16px;}
 .other-itemTitle .more_text{width:100%;height:100%;background:url(../hima_images/icons/more.gif) right center no-repeat;padding-right:25px;}
 
 
 .other-itemList{margin-top:20px;}
-.other-itemList .item{border:#cccccc solid 1px;}
+.other-itemList .item:hover{box-shadow:0 3px 4px rgba(0,0,0,0.18);}
 .other-itemList .second_item .item{margin-left:18px;}
 
 /*footer*/
 .footer{height:300px;background:#213F49;margin-top:48px; min-width:1204px;}
 .footer .leftArea{width:469px;height:300px;}
-.footer-logo{padding-top:50px;padding-left:170px;}
-.footer-signin-reg{padding-left:105px;margin-top:50px;}
+.footer-logo{padding-top:50px;padding-left:109px;}
+.footer-signin-reg{padding-left:85px;margin-top:50px;}
 .footer-signin-reg img{margin-left:23px;}
 
 .footer .rightArea{width:735px;height:300px;}
