@@ -6,13 +6,13 @@
 .rightArea{float:right}
 
 /* topbar */
-.top-bar{height:56px; background-color:#213F49; line-height:56px;}
+.top-bar{height:56px; background-color:#213F49; line-height:56px; min-width:1204px;}
 .top-bar a{color:#fff;margin-left:23px; font-size:14px;font-family: Arial;}
 .top-bar a:hover{color:red;}
 .shopCart{background:url(../hima_images/icons/shoppingCart.gif) left center no-repeat;padding-left:10px;}
-
+.top-bar .rightArea{width:275px;}
 /*logoBar*/
-.logo-bar{height:100px; background-color:#fff; border-bottom:#cbcbcb solid 1px;}
+.logo-bar{height:100px; background-color:#fff; border-bottom:#cbcbcb solid 1px; min-width:1204px;}
 .logo{padding-left:40px;padding-top:23px;}
 
 /*topNav*/
@@ -23,7 +23,7 @@
 .top-nav li:hover > .sub-nav-container{display:block;}
 
 /*sub-nav*/
-.sub-nav-container{display:none; position: absolute; width:100%; height:184px; left: 0; background: #fff; z-index:2; line-height:184px; border-bottom:#CCC solid 1px;}
+.sub-nav-container{display:none; position: absolute; width:100%; height:184px; left: 0; background: #fff; z-index:2; line-height:184px; border-bottom:#CCC solid 1px; min-width:1204px;}
 .sub-nav{height:184px; }
 .sub-nav-item{width:200px;height:184px;}
 .sub-nav a{float:left; margin-left:50px; width:100px; height:100px;}
@@ -46,21 +46,25 @@
 .banner_small {margin-top:20px;}
 
 /*item table*/
+.itemList{min-width:1204px;}
 .itemTitle{height:44px; line-height:44px; margin-bottom:15px;font-family:"微软雅黑";font-weight:bold;}
 .itemTitle h3{font-size:22px; float:left;  color:#213f49;  }
 
 .itemTitle .more{width:100px;height:44px; line-height:44px; font-size:16px;}
 .itemTitle .more_text{width:100%;height:100%;background:url(../hima_images/icons/more.gif) right center no-repeat;padding-right:25px;}
+.more a:hover{color:red;}
 
-.item{width:224px;height:370px;  text-align:center; float:left;font-size:13px; font-family:"微软雅黑"; background:#fff;}
-.itemList .item:hover{border:#213f49 solid 3px;}
+.item{width:224px;height:370px;  text-align:center; float:left;font-size:13px; font-family:"微软雅黑"; }
+.itemList .item{background:#fff; border:#fff solid 2px;}
+.itemList .item:hover{border:#213f49 solid 2px;}
 .second_item .item{margin-left:13px;}
 .item h3{margin-bottom:9px;}
 .item p{margin-bottom:18px;}
 .price{color:#ff8000;}
 
 /*hotSale*/
-.hot-sale{height:900px;background-color:#F3F3F3;margin-top:60px;}
+
+.hot-sale{height:900px;background-color:#F3F3F3;margin-top:60px;min-width:1204px;}
 .hot-sale-title{height:30px; line-height:30px; padding-top:40px;font-family:"微软雅黑"; }
 .hot-sale-title h3{font-size:22px;color:#213f49;}
 
@@ -87,7 +91,7 @@
 .other-itemList .second_item .item{margin-left:18px;}
 
 /*footer*/
-.footer{height:300px;background:#213F49;margin-top:48px;}
+.footer{height:300px;background:#213F49;margin-top:48px; min-width:1204px;}
 .footer .leftArea{width:469px;height:300px;}
 .footer-logo{padding-top:50px;padding-left:170px;}
 .footer-signin-reg{padding-left:105px;margin-top:50px;}
